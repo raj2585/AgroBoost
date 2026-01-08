@@ -1,0 +1,13 @@
+2025-03-17 19:37:33,970 - __main__ - INFO - Starting model debug script
+2025-03-17 19:37:57,829 - __main__ - INFO - PyTorch version: 2.6.0+cpu
+2025-03-17 19:37:57,831 - __main__ - INFO - CUDA available: False
+2025-03-17 19:37:57,836 - __main__ - ERROR - Transformers not installed
+2025-03-17 19:37:57,838 - __main__ - INFO - Attempting to import model module...
+2025-03-17 19:37:57,864 - models.model - ERROR - Required libraries not installed: No module named 'transformers'
+2025-03-17 19:37:57,871 - models.model - ERROR - Traceback (most recent call last):
+  File "C:\Users\pvsha\OneDrive\Desktop\CODING\SE\AgroBoost\AI\models\model.py", line 45, in <module>
+    from transformers import AutoProcessor, AutoModelForCausalLM, BlipProcessor, BlipForConditionalGeneration
+ModuleNotFoundError: No module named 'transformers'
+
+2025-03-17 19:37:57,874 - models.model - ERROR - Please run 'pip install -r requirements.txt'
+2025-03-17 19:37:57,876 - __main__ - ERROR - Model or processor is None
